@@ -14,7 +14,7 @@ const ShowList = () => {
 
     return (
         <div className="row">
-            <h2 class="pb-2 border-bottom">Movies</h2>
+            <h2 className="pb-2 border-bottom">Movies</h2>
             {shows.map(
                 (show) =>
                     show.show.image && (
